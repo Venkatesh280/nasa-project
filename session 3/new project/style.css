@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+   
+}
+
+.counter-container {
+    margin-top: 50px;
+}
+
+.current-count {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+#error {
+    color: red;
+    font-size: 1rem;
+    display: none; /* Hidden by default */
+}
+
+.counter-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 20px;
+   
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+#clear {
+    display: none; /* Hidden by default */
+}

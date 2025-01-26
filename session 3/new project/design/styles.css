@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://media.istockphoto.com/id/1161878589/photo/bueatiful-tea-plantation-on-mountain.jpg?s=612x612&w=is&k=20&c=3tmEG_OOOrHIG3t5e2_RFQRY4QeJXSS2QxefTm4Hy4o=') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0;
+    min-height: 100vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  
+  ul {
+    list-style-type: square;
+    list-style-position: inside; /* Ensures the bullet points are outside the box */
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  #band li {
+    margin-bottom:  0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-top:none;
+    
+   
+  }#band {
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+     
+}
+  
+  
